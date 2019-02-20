@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>468</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Helpdesk Scheduler v1.0</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" colspan="2">
+     <widget class="QLabel" name="TitlePart1">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Sans Serif&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Part 1: Select the shifts that you CAN work</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QCheckBox" name="monAft">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>1:00pm - 5:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QCheckBox" name="tueAft">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>1:00pm - 5:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QCheckBox" name="monEve">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>5:00pm - 9:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Monday</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QCheckBox" name="tueEve">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>5:00pm - 9:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Thursday</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QCheckBox" name="tueMor">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>9:00am - 1:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QCheckBox" name="monMor">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>9:00am - 1:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QCheckBox" name="wedMor">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>9:00am - 1:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QCheckBox" name="thuMor">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>9:00am - 1:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QCheckBox" name="wedAft">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>1:00pm - 5:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QCheckBox" name="thuAft">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>1:00pm - 5:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Tuesday</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QCheckBox" name="wedEve">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>5:00pm - 9:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QCheckBox" name="thuEve">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>5:00pm - 9:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Friday</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Saturday</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QCheckBox" name="friMor">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>9:00am - 1:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QCheckBox" name="satMor">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>9:00am - 1:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QCheckBox" name="friAft">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>1:00pm - 5:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QCheckBox" name="satAft">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>1:00pm - 5:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="QCheckBox" name="friEve">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>5:00pm - 9:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Sunday</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="0">
+     <widget class="QCheckBox" name="sunMor">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>9:00am - 1:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="0">
+     <widget class="QCheckBox" name="sunAft">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>1:00pm - 5:00pm</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Wednesday</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="1">
+     <widget class="QPushButton" name="btnBack">
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="1">
+     <widget class="QPushButton" name="btnNext">
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
